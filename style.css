@@ -1,0 +1,97 @@
+body {
+    /* background-color: #26a69a; */
+    padding-top: 70px;
+    background-image: url(Images/tekstura-siniy-svechenie.jpg);background-attachment: fixed ;background-size:cover ; background-repeat: no-repeat;
+    /* background: #e6e6e6; */
+}
+/* .navbar {
+    padding:10px;
+    margin-bottom:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  } */
+
+.bg-dark {
+    background-color: #4d2f87!important;
+}
+.nav-item{margin-right: 20px;font-size: 16pt;}
+
+.accordion>.card {
+    overflow: hidden;
+    border: none;
+    margin-bottom: 8px;
+    border-radius: 0;
+    box-shadow: 0 0 6px rgba(0,0,0,0.2);
+
+}
+
+.accordion .card .card-header {
+    background: rgb(148, 4, 117);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 0;
+}
+
+.accordion .card-header h2 {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+
+.accordion .card-header i {
+    color: #fff;
+    font-size: 1.3rem;
+    margin: 0 6px 0 -10px;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}			
+.accordion .card-header button:hover {
+    color: #23384e;
+}
+.accordion .card-body {
+    color: #666;
+}
+
+.card button{text-decoration: none;
+    color: #ffffff!important;
+    font-size: 16pt;
+    font-weight: 600;
+
+}
+    .card-body p{font-size: 15pt;}
+
+    .bs-example{        margin: 20px;    }
+
+    .accordion .fa{        margin-right: 0.5rem;    }
+
+    .carousel{
+    background: #2f4357;
+    margin-top: 20px;
+}
+.carousel-item{
+    text-align: center;
+    min-height: 280px; /* Prevent carousel from being distorted if for some reason image doesn't load */
+}
+
+     /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;}
+    .h2, h2 {
+        font-size: 30px;
+        color: yellow;
+    }
+    footer{
+        text-align: center;padding: 10px 0;background-color: #4d2f87; color: white; font-size: 14pt;
+    }
+
+    .btn-link:link, .btn-link:focus, .btn-link:not(:focus),  .btn-link:visited , .btn-link:hover, .btn-link:active  {
+        text-decoration: none;
+        box-shadow: none;
+    }
+  .backRed{
+      background: red;
+  }
